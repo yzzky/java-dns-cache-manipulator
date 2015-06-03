@@ -5,6 +5,7 @@ clone_depth: 5
 branches:
   except:
     - travis-ci
+    - /^.*-tmp$/
 
 environment:
   matrix:
